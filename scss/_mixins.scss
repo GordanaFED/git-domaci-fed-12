@@ -1,0 +1,38 @@
+@mixin general {
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+}
+
+@mixin tablet {
+	@media only screen and (min-width: 585px){
+		@content;
+	}
+}
+
+@mixin desktop {
+	@media only screen and (min-width: 1170px){
+		@content;
+	}
+}	
+
+@mixin clearfix {
+	&:before, &:after {
+	    content: "";
+	    display: table;
+	}
+	&:after {
+	    clear: both;
+	}
+}
+
+@mixin button {
+	border: 1px solid grey;
+	border-radius: 15px;
+	text-decoration: none;
+	padding: 5px 10px;
+	color: $font-color;
+	font-size: .5em;
+}
