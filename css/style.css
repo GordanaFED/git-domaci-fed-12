@@ -42,3 +42,25 @@ body {
           color: white; }
           body nav ul .pinpoint a:hover {
             text-decoration: underline; }
+  body header {
+    width: 100%;
+    height: 600px;
+    background-image: url("../slike/intro.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 1px; }
+    body header .welcome {
+      bottom: 0;
+      text-align: center;
+      width: 1000px;
+      height: 82px;
+      background-color: rgba(55, 66, 73, 0.4);
+      margin: 440px auto 0 auto; }
+      body header .welcome h1 {
+        color: white;
+        font-size: 48px;
+        font-weight: 400;
+        margin-bottom: 6px; }
+      body header .welcome p {
+        color: white;
+        font-size: 18px; }
