@@ -130,6 +130,8 @@ header{
 	width: 100%;
 }
 
+
+
 .container{
 	margin-right: 10%;
 	float: right;
@@ -163,6 +165,8 @@ header{
 	display: block;
 	width: 80%;
 	margin: auto;
+	overflow: auto;
+	padding: 20px;
 	// position: absolute;
 	// transform:translate(-50%,-50%);
 	// top: 50%;
@@ -206,3 +210,96 @@ header{
 	}
 
 }
+
+
+.whiteBkg2{
+	margin: 30px;
+	background: white;
+	width: 100%;
+
+	p{
+		text-align: center;
+		color: $BojaFonta;
+		margin: 30px;
+	}
+}
+
+table{
+	width: 50%;
+	margin: 0 auto;
+	th{
+		background: $TamnoPlava;
+		color: white;
+		}
+	
+	td{
+		border-right: 1px solid gray;
+		border-bottom: 1px solid gray;
+	}
+		
+	
+	
+	.borderFill{
+	
+		background: $Narandzasta;
+	}
+}
+
+.map{
+	width: 40%;
+	float: left;
+	margin: 30px;
+	
+
+}
+
+form{
+	width: 40%;
+	float: left;
+	background: $Narandzasta;
+	margin-top: 30px;
+	margin-left: 10px;
+
+
+	input{
+		width: 80%;
+		line-height: 1.9em;
+		margin-top: 1em;
+		margin-left: 1em;
+
+		input[name="Ime"]{
+			width: 60%;
+
+		}
+
+	}
+	input[name="Ime"]{
+			width: 67%;
+
+		}
+	select{
+		min-height: 1.9em;
+		margin-left: 1em;
+	}
+
+	textarea{
+		width: 80%;
+		height: 4em;
+		margin: 1em;
+		margin-left:1em;
+	}
+
+}
+
+footer{
+	background: $TamnoPlava;
+	width: 100%;
+	height: 4em;
+	text-align: center;
+	color: $BojaFonta;
+	
+	a{
+		color: $Narandzasta;
+	}
+}
+
