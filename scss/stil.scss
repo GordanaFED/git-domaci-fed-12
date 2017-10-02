@@ -1,6 +1,91 @@
+@import 'partials/vars';
+@import 'partials/font_styles';
+@import 'partials/mixin_main';
+@import 'partials/media_queries';
+@import 'partials/responsive_ratio';
+@import 'partials/boje';
+@import 'partials/nav';
+@import 'partials/floter';
+@import 'partials/zaslike';
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box; 
 }
+
+nav.gornji {
+	@include nav;
+	ul {
+    background-color: $crna;
+		li.homebuton {
+			display: flex;
+			float: left;
+			background-color: $orange;
+			a {
+		    color: $bela;
+		    text-align: center;
+		    text-decoration: none;	
+			}
+			a:hover {
+    			text-decoration: underline;
+			}
+			img {
+				height:2em;
+				width: 2em;
+				}
+		}
+		li{
+			a {
+		    color: $bela;
+		    float: left;
+		    text-align: center;
+		    text-decoration: none;
+			}
+			a:hover {
+    			text-decoration: underline;
+			}
+		}
+
+	}
+}
+
+header {
+	display: flex;
+	background-image: url("../slike/intro.jpg");
+	width:100%;
+	height:37em;
+	text-align:center;
+		.floter{
+			@include floter;
+		}
+}
+nav.srednji {
+	@include nav;
+	ul {
+		background-color:$bela;
+		padding:2em 0 2em 0;
+		margin-right: 12em;
+		li {
+			display: inline-block;
+			float: right;
+			margin:0 3em 0 3em;
+			border:0.1em solid black;
+			border-radius:50px;
+			a{
+				color: black;
+				text-align: center;
+		    	text-decoration: none;
+			}
+			a:hover {
+    			background-color: $plavicasta;
+    			color: rgba (255,255,255,0.3);
+    			border-radius:50px;
+			}
+		}
+	}
+}
+.izaslike {
+	@include izaslike;
+}
+	

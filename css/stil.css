@@ -1,6 +1,136 @@
+/* A massive time saver! You can just use pixel values 
+but we have some default breakpoints setup that work 
+too, another time saver while keeping your breakpoints 
+consistent.*/
+/*The example below showing the padding and font-size 
+increasing once the viewport gets over 1024px.*/
+/*.site-header {
+    padding: 2rem;
+    font-size: 1.8rem;
+    @include mq('tablet-wide') {
+        padding-top: 4rem;
+        font-size: 2.4rem;
+    }
+} */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
+
+nav.gornji ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
+  nav.gornji ul li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; }
+nav.gornji ul {
+  background-color: #0b1960; }
+  nav.gornji ul li.homebuton {
+    display: flex;
+    float: left;
+    background-color: #FFA500; }
+    nav.gornji ul li.homebuton a {
+      color: #fff;
+      text-align: center;
+      text-decoration: none; }
+    nav.gornji ul li.homebuton a:hover {
+      text-decoration: underline; }
+    nav.gornji ul li.homebuton img {
+      height: 2em;
+      width: 2em; }
+  nav.gornji ul li a {
+    color: #fff;
+    float: left;
+    text-align: center;
+    text-decoration: none; }
+  nav.gornji ul li a:hover {
+    text-decoration: underline; }
+
+header {
+  display: flex;
+  background-image: url("../slike/intro.jpg");
+  width: 100%;
+  height: 37em;
+  text-align: center; }
+  header .floter {
+    display: block;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+    padding: 0.5em;
+    background: #b2b2b2;
+    box-shadow: 2px 2px 30px 4px black;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%); }
+
+nav.srednji ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
+  nav.srednji ul li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; }
+nav.srednji ul {
+  background-color: #fff;
+  padding: 2em 0 2em 0;
+  margin-right: 12em; }
+  nav.srednji ul li {
+    display: inline-block;
+    float: right;
+    margin: 0 3em 0 3em;
+    border: 0.1em solid black;
+    border-radius: 50px; }
+    nav.srednji ul li a {
+      color: black;
+      text-align: center;
+      text-decoration: none; }
+    nav.srednji ul li a:hover {
+      background-color: #d4daf9;
+      color: rgba 255, 255, 255, 0.3;
+      border-radius: 50px; }
+
+.izaslike {
+  background-color: #d4daf9;
+  width: 100%; }
+  .izaslike .sveslike {
+    position: relative;
+    display: inline-block; }
+    .izaslike .sveslike .slika {
+      display: inline-block;
+      width: auto;
+      height: auto; }
+    .izaslike .sveslike .zavesa {
+      position: absolute;
+      bottom: 100%;
+      left: 0;
+      right: 0;
+      background-color: #fff 0.3;
+      overflow: hidden;
+      width: 100%;
+      height: 0;
+      transition: .5s ease; }
+  .izaslike .sveslike:hover .zavesa {
+    top: 0;
+    height: 30%; }
+  .izaslike .text {
+    white-space: nowrap;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); }
 
 /*# sourceMappingURL=stil.css.map */

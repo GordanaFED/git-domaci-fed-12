@@ -1,0 +1,14 @@
+@mixin floter{
+			display: block;
+			color: $bela;
+			text-align: center;
+    		overflow:hidden;
+    		padding: 0.5em;
+    		background: $sivaprozirna;
+    		box-shadow: 2px 2px 30px 4px black;
+    		position: absolute;
+    		top: 75%;
+    		left: 50%;
+    		margin-right: -50%;
+    		transform: translate(-50%, -50%)
+		}
