@@ -111,6 +111,7 @@ header{
 		left: 50%;
 		color: white;
 		margin-bottom: 10px;
+		width: 100%;
 
 	}
 	p{
@@ -119,7 +120,7 @@ header{
 		transform:translate(-50%, -50%);
 		left: 50%;
 		color: white;
-	}
+			}
 
 }
 
@@ -177,8 +178,8 @@ header{
 
 	display: inline-block;
 	width: 18%;
-	margin: 10px;
 	position: relative;
+	margin: 10px;
 
 .hoverBox{
 		position: absolute;
@@ -204,8 +205,8 @@ header{
 	
 
 	img{
-		width: 100%;
-		margin:10px;
+		width: 80%;
+		
 
 	}
 
@@ -302,4 +303,89 @@ footer{
 		color: $Narandzasta;
 	}
 }
+
+@media screen and (max-width: 1350px){
+	.imgBox{
+		width: 45%;
+	
+	img{
+		width: 70%;
+	}
+	}
+	.container2{
+		overflow: none;
+	}
+	.map{
+		float: none;
+		width: 100%;
+		margin-top: 30px;
+
+
+	}
+
+	form{
+		float: none;
+		width: 100%;
+	}
+
+}
+
+@media screen and (max-width: 600px){
+	.mainNavigation{
+		height: auto;
+
+		.NYcontainer{
+			float: none;
+			width: 100%;
+		}
+
+		ul{
+			width: 100%;
+			margin-bottom: 5px;
+
+			li{
+				width: 100%;
+				text-align: center;
+				padding: 0.5em;
+			}
+		}
+	}
+	
+
+.intro{
+	clear: both;
+	background: black;
+	min-height: 6em;
+
+
+}
+.greyBox{
+		min-height: 4em;
+		top:0%;
+		display: block;
+		p{
+			top:50%;
+
+		}
+	}
+
+.imgBox{
+	width: 100%;
+
+
+	img{
+		width: 100%;
+	}
+}
+
+.hoverBox{
+	background: rgba(white,0.8);
+		color: rgba(black,1);
+
+
+}
+
+}
+
+
 
