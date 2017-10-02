@@ -122,3 +122,87 @@ header{
 	}
 
 }
+
+
+.whiteBkg{
+	min-height: 5em;
+	background: white;
+	width: 100%;
+}
+
+.container{
+	margin-right: 10%;
+	float: right;
+}
+
+.btn{
+	
+	border-radius: 28px;
+	font-size: 1em;
+	padding: 10px;
+	color: $BojaFonta;
+	background-color: white;
+	margin: 1em ;
+	border: .5px solid $BojaFonta;
+
+	&:hover{
+		background-color: $BojaFonta;
+		color: white;
+	}
+	
+}
+
+.grayBkg{
+
+	width: 100%;
+	background: $SvetloSiva1;
+
+}
+
+.container2{
+	display: block;
+	width: 80%;
+	margin: auto;
+	// position: absolute;
+	// transform:translate(-50%,-50%);
+	// top: 50%;
+}
+
+
+.imgBox{
+
+	display: inline-block;
+	width: 18%;
+	margin: 10px;
+	position: relative;
+
+.hoverBox{
+		position: absolute;
+		top: 0.6em;	
+		margin-left: .6em;
+		padding: 20px;
+		width: 100%;
+		background: rgba(white,0);
+		color: rgba(black,0);
+		
+		
+		
+		
+	
+	&:hover{
+		background: rgba(white,0.8);
+		color: rgba(black,1);
+
+			}
+
+}
+
+	
+
+	img{
+		width: 100%;
+		margin:10px;
+
+	}
+
+}
