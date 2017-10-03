@@ -11,7 +11,7 @@ html, body {
   height: 100%; }
 
 header {
-  position: fixed;
+  position: fixed, relative;
   width: 100%; }
 
 .mainNavigation {
@@ -38,7 +38,7 @@ header {
         .mainNavigation ul li a:hover {
           background: #f75311;
           text-decoration: underline;
-          color: #cfd1d3; }
+          color: #F8F8F8; }
 
 .ny {
   width: 250px;
@@ -53,7 +53,7 @@ header {
   float: left;
   width: 100%;
   height: 80%;
-  padding-top: 3%;
+  padding-top: 0%;
   background-size: cover; }
 .intro .introBlock {
   position: absolute;
@@ -70,5 +70,57 @@ header {
   .intro .introBlock h5 {
     color: #f3f7f9;
     text-shadow: 3px 1px 1px #000; }
+
+.secNavigation {
+  width: 100%; }
+  .secNavigation ul {
+    list-style: none;
+    background: #F8F8F8;
+    color: #797979;
+    text-align: right;
+    padding-right: 7%; }
+    .secNavigation ul li {
+      display: inline-block; }
+      .secNavigation ul li a {
+        text-decoration: none;
+        color: inherit;
+        display: inline-block;
+        padding: 10px;
+        border: 1px solid #797979;
+        margin: 10px;
+        border-radius: 20px; }
+        .secNavigation ul li a:hover {
+          background: #797979;
+          color: #F8F8F8; }
+
+.galerija {
+  width: 100%;
+  padding-top: 2%;
+  padding-left: 5%;
+  background: #f3f7f9; }
+  .galerija .imgEfect {
+    position: relative;
+    display: inline-block;
+    padding-left: 2%;
+    padding-bottom: 2%; }
+    .galerija .imgEfect .img {
+      height: 400px;
+      width: 300px; }
+    .galerija .imgEfect .imgTxt {
+      position: absolute;
+      top: 0em;
+      bottom: 15em;
+      left: 1.1em;
+      right: 0em;
+      background: rgba(192, 192, 192, 0.5);
+      color: #000;
+      visibility: hidden;
+      opacity: 0;
+      transition: opacity .2s, visibility .2s;
+      padding: 10px;
+      font-size: 20px; }
+  .galerija .imgEfect:hover .imgTxt {
+    visibility: visible;
+    opacity: 1; }
 
 /*# sourceMappingURL=style.css.map */

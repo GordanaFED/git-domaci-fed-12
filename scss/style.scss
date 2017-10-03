@@ -9,14 +9,17 @@
 	        box-sizing: border-box;
     font-family: $fonts;
 }
+
 html, body {
 	width: 100%;
 	height: 100%;
 }
+
 header {
-	position: fixed;
+	position: fixed, relative;
     width: 100%;
 }
+
 .mainNavigation {
 	width: 100%;
 
@@ -70,7 +73,7 @@ header {
 		float: left;
 		width: 100%;
 		height: 80%;
-		padding-top: 3%;
+		padding-top: 0%;
 		background-size: cover;
 	}
 	.introBlock{
@@ -93,4 +96,71 @@ header {
 		}
 	}
 
+}
+
+.secNavigation{
+		width: 100%;
+
+	ul {
+	list-style: none;
+	background: $hoverButtonColor;
+	color: $fontColor;
+	text-align: right;
+	padding-right: 7%;
+
+	li {
+	display: inline-block;
+
+	a {
+	text-decoration: none;
+	color: inherit;
+	display: inline-block;
+	padding: 10px;
+	border: 1px solid $fontColor;
+	margin: 10px;
+	border-radius: 20px;
+
+
+	&:hover {
+	background: $fontColor;
+	color: $hoverButtonColor;
+
+}
+}
+}
+}
+}
+.galerija {
+		width:100%;
+		padding-top: 2%;
+		padding-left: 5%;
+		background: $sectionBackgroundColor;
+	.imgEfect{
+		position: relative;
+		display: inline-block;
+		padding-left: 2%;
+		padding-bottom: 2%;
+		.img{
+  		height: 400px;
+  		width: 300px;
+		}
+		.imgTxt{
+  		position: absolute;
+  		top: 0em;
+  		bottom: 15em;
+  		left: 1.1em;
+  		right: 0em;
+  		background: rgba(192,192,192,0.5);
+  		color: #000;
+  		visibility: hidden;
+  		opacity: 0;
+  		transition: opacity .2s, visibility .2s;
+  		padding: 10px;
+  		font-size: 20px;
+		}
+	}
+		.imgEfect:hover .imgTxt {
+  		visibility: visible;
+  		opacity: 1;
+}
 }
