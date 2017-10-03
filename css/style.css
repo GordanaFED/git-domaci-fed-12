@@ -172,7 +172,7 @@ footer {
       width: 47.5%; }
       main #gallery figure figcaption {
         opacity: 0; }
-      main #gallery figure img:hover figcaption {
+      main #gallery figure:hover figcaption {
         opacity: 1; }
     main #gallery figure:nth-child(2n + 1) {
       margin-right: 5%; }

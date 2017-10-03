@@ -1,0 +1,17 @@
+
+
+Pozdrav svima,
+
+dodao sam vam prava na GitHub repozitorijumu za domaći, trebalo bi da vam stigne invite (barem vama koji su poslali naloge). Za podsetnik, treba da uradite sledeće:
+
+    Klonirati repozitorijum koji sam kreirao: git clone https://github.com/FEDKursevi/git-domaci-fed-12.git
+    Napraviti granu sa svojim imenom: git branch ImePrezime
+    Svako pushuje na svoju granu:
+        git add .
+        git commit -m "Poruka"
+        git push origin ImePrezime
+
+* Kao što smo rekli na času, ali kada uradite clone, to automatski podesi remote, ne morate vi (samo kada smo napravili prazan repozitorijum sa git init).
+
+Srećno :)
+
