@@ -86,17 +86,61 @@
 		</div>	
 	</div>
 
-	<div>
+	<div class="prices">
 		<h1>PRICING</h1>
 		<p>Our services prices in New York</p>
 		<p>Check the prices</p>
+		<table class="tabela">
+			<thead>
+				<tr>
+					<th></th>
+						<th></th>
+						<th class="to" colspan="2">Price</th>
+					</tr>			
+				</tr>
+				<tr>
+					<th></th>
+					<th></th>
+					<th class="tb">Rent/Buy</th>
+					<th class="tb">Sell</th>
+				</tr>
+			</thead>
+			<tbody>		
+					<tr>
+						<td class="to" rowspan="3">Location</td>
+						<td class="tb">Downtown</td>
+						<td>3$</td>
+						<td>3$</td>
+					</tr>
+					<tr>
+						<td class="tb">Center</td>
+						<td>3$</td>
+						<td>3$</td>
+					</tr>
+					<tr>
+						<td class="tb">Manhattan</td>
+						<td>3$</td>
+						<td>3$</td>
+					</tr>
+				</tbody>
+		</table>
 	</div>
-	<div>
+	<div class="contact">
 		<h1>CONTACT US</h1>
-			<div id="map"</div>
+			<div id="map" style="width:400px;height:400px;"></div>
+		<script>
+			function myMap() {
+			    var mapOptions = {
+			        center: new google.maps.LatLng(40.735145, -73.997027),
+			        zoom: 10,
+			        mapTypeId: google.maps.MapTypeId.HYBRID
+			    }
+			var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+			}
+			</script>
+			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyClS84xR6WJUY0si97MDy2_yg3DqAqq8gU&callback=myMap"></script>
 
-	</div>
-	<div>
+	<div class="forma">
 		<form action="#" method="POST" autocomplete="on" enctype="multipart/form-datd">
 		    			<select name="title" >
 		    				<option value="Mr">Mr</option>

@@ -15,7 +15,8 @@ increasing once the viewport gets over 1024px.*/
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-family: Roboto; }
 
 nav.gornji ul {
   list-style-type: none;
@@ -114,7 +115,7 @@ nav.srednji ul {
       bottom: 100%;
       left: 0;
       right: 0;
-      background-color: #fff 0.3;
+      background-color: rgba(255, 255, 255, 0.6);
       overflow: hidden;
       width: 100%;
       height: 0;
@@ -132,5 +133,62 @@ nav.srednji ul {
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%); }
+
+.prices h1, .prices p {
+  text-align: center; }
+
+.tabela {
+  margin: 3em auto 3em auto;
+  border-collapse: collapse; }
+  .tabela th, .tabela td {
+    padding: 15px;
+    text-align: center; }
+  .tabela .to {
+    color: #fff;
+    background-color: #FFA500; }
+  .tabela .tb {
+    color: #fff;
+    background-color: #0b1960; }
+
+.contact {
+  background-color: #d4daf9;
+  display: inline-block;
+  width: 100%; }
+  .contact h1 {
+    text-align: center; }
+
+#map {
+  width: 100%;
+  height: 20em;
+  background-color: grey;
+  margin: 0; }
+
+.forma {
+  background-color: #FFA500;
+  border-radius: 5px;
+  padding: 20px;
+  width: 40%; }
+  .forma input[type=text], .forma input[type=email], .forma input[type=textarea] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; }
+  .forma select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 20%; }
+
+footer {
+  background-color: #0b1960;
+  text-align: center;
+  color: #fff;
+  height: 2em; }
 
 /*# sourceMappingURL=stil.css.map */

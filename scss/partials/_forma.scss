@@ -1,0 +1,25 @@
+@mixin forma {
+	background-color: $orange;
+	border-radius: 5px;
+	padding: 20px;
+	width:40%;
+input[type=text], input[type=email], input[type=textarea]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+select {
+	width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width:20%;
+}
+}
