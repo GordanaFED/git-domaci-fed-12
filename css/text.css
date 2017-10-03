@@ -187,4 +187,21 @@ li a:hover {
     text-transform: uppercase;
     margin: 2em auto; }
 
+footer {
+  background-color: #374249;
+  width: 100%;
+  float: left; }
+  footer p {
+    color: white;
+    float: left;
+    width: 50%;
+    text-align: right;
+    font-size: 10px;
+    padding: 0.4em; }
+  footer .red {
+    color: red;
+    float: left;
+    width: 50%;
+    text-align: left; }
+
 /*# sourceMappingURL=text.css.map */
