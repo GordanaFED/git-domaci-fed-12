@@ -9,8 +9,10 @@ body{
 }
 header{
 	width:100%;
-	display: inline-block;
+	/*display: inline-block;*/
 	height: 3em;
+	
+	
 
 
 	.left{
@@ -25,6 +27,7 @@ header{
 			margin:0;
 			float: left;
 			margin-left: 10px;
+
 		}
 			h3{
 			
@@ -46,6 +49,7 @@ header{
 		height: 3em;
 		background:#374249;
 		float: right;
+		margin:0;
 			
 		
 
@@ -76,4 +80,127 @@ header{
 			}
 		}
 	}
+}
+
+.intro{
+		margin: 0 auto;
+		width: 100%;
+		position: relative;
+		margin: 0;
+
+		img {
+			width: 100%;
+			margin: 0;
+			
+			
+			
+		}
+
+		.text{
+			background-color: #909090;
+			position: absolute;
+    		top: 70%;
+    		left: 50%;
+    		transform: translate(-50%,-50%);
+    		opacity: 0.8;
+    		margin: 0;
+    		height: 4em;
+    			h1{
+    				margin:0;
+    				color: white;
+    			}
+
+    			p{
+    				margin: 0;
+    				color: white;
+    			}
+		}
+}
+
+.button {
+	width: 100%;
+	background-color:white;
+	height: 4em;
+	margin:0;
+	padding: 0;
+	
+		ul	{
+			margin-left: 500px;
+
+
+			li{
+				display: inline-block;
+			padding: 10px 20px;
+			border-radius: 20px;
+			margin-right: 20px;
+			margin-top: -5px;
+			text-decoration: none;
+			list-style: none;
+			border: 1px solid #cfd1d3;
+
+				&:hover{
+					background-color:#cfd1d3;
+					 a{
+					 	color:white;
+					 }
+				}
+
+				a{
+					text-decoration: none;
+					color: #797979;
+				}
+			}
+
+		}
+}
+
+.picture{
+	/*padding: 30px;*/
+	width: 100%;
+	background-color: #f3f7f9;
+	margin: 0;
+	
+
+	
+
+	 .ponuda{
+	 	width: 22%;
+	 	display: inline-block;
+	 	position: relative;
+	 	
+	 	
+
+	 	
+
+
+	 	img{
+	 		width:150px;
+	 		height: 200px;
+	 		margin-bottom: 20px;
+	 			
+	 			
+
+
+		}
+
+	 	.pozadina {
+			 			
+			 			margin:0;
+				 		margin-left: 10px;
+				 		background-color: #f3f7f9;
+				 		position: absolute;
+			    		top: 0%;
+			    		width: 150px;
+			    		opacity: 0;
+			    		margin: 0;
+			    		height: 6em;
+		 					&:hover{
+		 						opacity:0.8;
+						}
+
+
+	 	
+	 }
+
+}
 }
