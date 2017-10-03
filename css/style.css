@@ -27,6 +27,11 @@ header nav {
   color: white; }
   header nav ul li {
     padding: 15px 0; }
+    header nav ul li a {
+      text-decoration: none;
+      color: white; }
+      header nav ul li a:hover {
+        text-decoration: underline; }
 header #secondHeaderDiv {
   background-color: black;
   color: white;
@@ -45,6 +50,9 @@ main #buttons {
     padding: 5px 10px;
     color: #797979;
     font-size: .5em; }
+    main #buttons a:hover {
+      color: white;
+      background-color: grey; }
   main #buttons a:nth-child(2) {
     margin: 0 25px; }
 main #gallery figure {
@@ -82,6 +90,9 @@ main #table {
     padding: 5px 10px;
     color: #797979;
     font-size: .5em; }
+    main #table a:hover {
+      color: white;
+      background-color: grey; }
 main #contactSection h3 {
   text-align: center;
   color: #797979;
@@ -115,7 +126,99 @@ footer {
     footer p span {
       color: #f75311; }
 
-table {
-  border: 1px solid red; }
+@media only screen and (min-width: 585px) {
+  header {
+    background-image: url("../slike/intro.jpg");
+    background-size: cover;
+    height: 400px;
+    text-align: center; }
+    header:before, header:after {
+      content: "";
+      display: table; }
+    header:after {
+      clear: both; }
+    header div:first-child {
+      float: left;
+      width: 30%; }
+    header nav {
+      float: left;
+      width: 70%; }
+      header nav ul {
+        list-style: none;
+        text-align: left;
+        padding: 2px 20px; }
+        header nav ul li {
+          display: inline-block;
+          margin-right: 40px; }
+    header #secondHeaderDiv {
+      display: inline-block;
+      background-color: rgba(0, 0, 0, 0.4);
+      margin-top: 20%;
+      width: 35%; }
+
+  main #buttons {
+    text-align: right; }
+  main #gallery {
+    background-color: #f0f8ff;
+    padding-top: 5%;
+    padding-bottom: 2.5%; }
+    main #gallery:before, main #gallery:after {
+      content: "";
+      display: table; }
+    main #gallery:after {
+      clear: both; }
+    main #gallery figure {
+      float: left;
+      width: 47.5%; }
+      main #gallery figure figcaption {
+        opacity: 0; }
+      main #gallery figure img:hover figcaption {
+        opacity: 1; }
+    main #gallery figure:nth-child(2n + 1) {
+      margin-right: 5%; }
+  main #table {
+    padding-bottom: 25px; }
+    main #table table {
+      display: table;
+      width: 100%;
+      color: gray;
+      border-collapse: collapse;
+      margin-top: 35px; }
+      main #table table tbody tr > * {
+        border: 1px solid grey; }
+      main #table table th, main #table table td {
+        padding: 5px 35px; }
+    main #table a {
+      display: none; }
+    main #table .orangeFild {
+      background-color: #f75311;
+      color: white; }
+    main #table .blueFild {
+      background-color: #374249;
+      color: white; }
+    main #table .border {
+      border-right: 1px solid grey; }
+  main #contactSection {
+    background-color: #f0f8ff;
+    padding-top: 25px; }
+    main #contactSection #googleMap {
+      padding-left: 25%;
+      padding-right: 25%; }
+    main #contactSection form input[type="text"]:first-child {
+      display: inline-block;
+      width: 34.8%;
+      margin-right: 5%; }
+    main #contactSection form input[type="text"]:nth-child(2) {
+      display: inline-block;
+      width: 60%;
+      margin-left: -4px; }
+    main #contactSection form textarea {
+      margin-top: 20px; }
+  main .spaceAround {
+    padding-left: 15%;
+    padding-right: 15%; }
+
+  footer p {
+    font-size: 1em; } }
 
 /*# sourceMappingURL=style.css.map */
