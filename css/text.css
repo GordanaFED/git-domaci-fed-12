@@ -204,4 +204,153 @@ footer {
     width: 50%;
     text-align: left; }
 
+@media only screen and (min-width: 585px) {
+  li {
+    float: left;
+    width: auto;
+    margin: auto;
+    padding: auto; }
+
+  li a {
+    display: inline-block;
+    color: white;
+    text-align: left;
+    text-decoration: none;
+    width: auto;
+    padding: 15px 20px; }
+    li a img {
+      float: left;
+      margin-top: -1em;
+      margin-bottom: -1em; }
+
+  .active {
+    background-color: #f75311;
+    width: 300px; }
+
+  .intro {
+    background: url(../slike/intro.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 500px; }
+    .intro .h1 {
+      position: absolute;
+      transform: translate(-50%, -50%);
+      top: 70%;
+      width: 70%; }
+
+  .buttonSection form {
+    float: right;
+    margin-right: 6em; }
+    .buttonSection form input[type="button"] {
+      display: inline-block;
+      padding: 0.5em;
+      margin: 1em 2em 1em;
+      width: auto;
+      height: 2.5em;
+      background-color: white;
+      border-radius: 20px; }
+    .buttonSection form input[type="button"]:hover {
+      background-color: #cfd1d3; }
+
+  .imgSection {
+    height: auto;
+    float: left;
+    background-color: #f3f7f9; }
+    .imgSection .imgMain {
+      display: block;
+      width: 80%;
+      margin: auto;
+      padding: 1em; }
+      .imgSection .imgMain .imgDiv {
+        width: 19%;
+        height: 244px;
+        display: inline-block;
+        margin: 1em 1em;
+        position: relative; }
+        .imgSection .imgMain .imgDiv img {
+          width: 100%;
+          height: 100%; }
+        .imgSection .imgMain .imgDiv .hoverText {
+          background: rgba(255, 255, 255, 0.4);
+          position: absolute;
+          top: 0;
+          left: -1000%;
+          width: 100%;
+          height: 50%; }
+          .imgSection .imgMain .imgDiv .hoverText h3, .imgSection .imgMain .imgDiv .hoverText h4 {
+            padding: 0.2em; }
+      .imgSection .imgMain .imgDiv:hover .hoverText {
+        left: 0%; }
+
+  .tableSection {
+    text-align: center;
+    float: left;
+    width: 100%; }
+    .tableSection .button {
+      display: none; }
+    .tableSection table {
+      display: block;
+      width: 65%;
+      margin: 2em auto;
+      border-collapse: collapse; }
+    .tableSection th {
+      background-color: #374249;
+      color: white; }
+    .tableSection th[colspan]:not(.first) {
+      background: #f75311; }
+    .tableSection th[rowspan]:not(.first) {
+      background-color: #f75311; }
+    .tableSection td {
+      background-color: white;
+      color: #374249; }
+    .tableSection tr > * {
+      border: 1px solid black;
+      padding: 0.3em 3em; }
+    .tableSection h1 {
+      color: #374249;
+      text-transform: uppercase;
+      margin-top: 2em; }
+    .tableSection h5 {
+      color: #cfd1d3;
+      margin-top: 2em; }
+    .tableSection .first {
+      border-left: none;
+      border-top: none;
+      background-color: white; }
+
+  .formMap {
+    height: 400px; }
+    .formMap .googleMap {
+      width: 75%; }
+      .formMap .googleMap iframe {
+        float: left;
+        width: 30%; }
+      .formMap .googleMap .form .contactForm {
+        float: right;
+        width: 60%; }
+
+  .imgSection .imgMain {
+    width: 85%; }
+    .imgSection .imgMain .imgDiv {
+      width: 40%; }
+      .imgSection .imgMain .imgDiv .hoverText {
+        background: rgba(255, 255, 255, 0.4);
+        position: absolute;
+        top: 0;
+        left: -1000%;
+        width: 100%;
+        height: 50%; }
+        .imgSection .imgMain .imgDiv .hoverText h3, .imgSection .imgMain .imgDiv .hoverText h4 {
+          padding: 0.2em; }
+    .imgSection .imgMain .imgDiv:hover .hoverText {
+      left: 0%; } }
+@media only screen and (min-width: 1170px) {
+  .tableSection table {
+    width: 50%; }
+
+  .imgSection .imgMain .imgDiv {
+    width: 20%; } }
+
 /*# sourceMappingURL=text.css.map */

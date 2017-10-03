@@ -334,3 +334,333 @@ footer{
         text-align: left;
     }
 }
+@media only screen and (min-width: 585px) {
+
+    li {
+    float: left;
+    width: auto;
+    margin: auto;
+    padding: auto;
+    }
+
+     li a {
+         display: inline-block;
+          color: white;
+         text-align: left;
+         text-decoration: none;
+         width: auto;
+         padding: 15px 20px;
+
+
+            img{
+                float: left;
+                margin-top: -1em;
+                margin-bottom: -1em;
+
+                
+            }
+            
+    }
+
+    
+    .active {
+        background-color: $navColor;
+        width: 300px;
+        
+    }
+
+    .intro{
+
+      background:url(../slike/intro.jpg);
+
+      @include bkgSize(cover);
+
+                 height: 500px;
+            
+             .h1{
+
+                position: absolute;
+                transform: translate(-50%, -50%);
+                top: 70%;
+                width: 70%;
+                
+            }
+
+    }
+
+
+
+    .buttonSection{
+
+   
+
+
+    form{
+
+        float: right;
+        margin-right: 6em;
+
+
+         input[type="button"]{
+
+            display: inline-block;
+ //           float: right;
+            padding: 0.5em;
+            margin:1em 2em 1em;
+            width: auto;
+            height: 2.5em;
+            background-color: white;
+            border-radius: 20px;
+        }
+         input[type="button"]:hover {
+            background-color: $hoverColor;
+}
+
+
+
+    }
+}
+
+
+
+.imgSection{
+
+    height: auto;
+    float: left;
+    background-color: $bkg;
+
+    .imgMain{
+  
+        display: block;
+        width: 80%;
+        margin: auto;
+        padding: 1em;
+
+        .imgDiv{
+
+             width: 19%;
+             height: 244px;
+             display: inline-block;
+             margin: 1em 1em;
+             position: relative;
+
+
+
+            img{
+
+            width: 100%;
+            height: 100%;
+            }
+            .hoverText{
+
+                background: rgba(255, 255, 255, 0.4);
+                position: absolute;
+                top: 0;
+                left: -1000%;
+                width: 100%;
+                height: 50%;
+
+                h3, h4{
+
+                    padding: 0.2em;
+                }
+            }
+
+
+        }
+        .imgDiv:hover .hoverText{
+
+            left: 0%;
+
+        }
+
+    }
+}
+
+.tableSection{
+
+    
+    text-align: center;
+    float: left;
+    width: 100%;
+    
+
+        .button{
+
+        display: none;
+
+         }
+
+        table{
+
+            display: block;
+
+            width: 65%;
+            margin: 2em auto;
+            border-collapse:  collapse;
+        }
+
+        th{
+            background-color: $HFcolor;
+            color: white;
+        }
+        th[colspan]:not(.first){
+            background:$navColor;
+        }
+        th[rowspan]:not(.first){
+            background-color: $navColor;
+        }
+        td{
+            background-color: white;
+            color: $HFcolor;
+        }
+
+        tr>*{
+            border: 1px solid black;
+            padding: 0.3em 3em;
+        }
+
+        h1{
+
+            color: $hColor;
+            text-transform: uppercase;
+            margin-top: 2em;
+
+        }
+        h5{
+
+            color: $hoverColor;
+            margin-top: 2em;
+        }
+        .first{
+            border-left: none;
+            border-top: none;
+            background-color: white;
+
+        }
+
+}
+
+.formMap{
+
+    
+
+    height: 400px;
+   
+
+    .googleMap{
+
+
+        width: 75%;
+        
+
+        iframe{
+
+            float: left;
+            width: 30%;
+            
+        }
+        .form{
+
+
+
+        .contactForm {
+        float: right;
+        width: 60%;
+       
+        
+    }
+    }
+        
+ }
+
+
+}
+
+.imgSection{
+
+   
+
+    .imgMain{
+  
+        
+        width: 85%;
+      
+
+        .imgDiv{
+
+             width: 40%;
+                         
+
+            
+            .hoverText{
+
+                background: rgba(255, 255, 255, 0.4);
+                position: absolute;
+                top: 0;
+                left: -1000%;
+                width: 100%;
+                height: 50%;
+
+                h3, h4{
+
+                    padding: 0.2em;
+                }
+            }
+
+
+        }
+        .imgDiv:hover .hoverText{
+
+                left: 0%;
+            }
+      
+
+    }
+}
+
+
+
+
+    
+
+}
+
+@media only screen and (min-width: 1170px) {
+
+
+    .tableSection{
+
+    
+
+        table{
+
+
+            width: 50%;
+
+        }
+
+
+}
+
+.imgSection{
+
+   
+
+    .imgMain{
+  
+      
+
+        .imgDiv{
+
+             width: 20%;
+                         
+      
+
+    }
+}
+
+
+
+}
+}
