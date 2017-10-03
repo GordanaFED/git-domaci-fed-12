@@ -16,11 +16,18 @@ header {
 
 .mainNavigation {
   width: 100%; }
+  .mainNavigation .pin {
+    float: left;
+    display: inline-block;
+    vertical-align: top;
+    width: 59px;
+    height: 59px;
+    background: #f75311; }
   .mainNavigation ul {
     list-style: none;
-    background: #607d8b;
-    color: #fff;
-    text-align: center; }
+    background: #374249;
+    color: #f3f7f9;
+    text-align: left; }
     .mainNavigation ul li {
       display: inline-block; }
       .mainNavigation ul li a {
@@ -28,7 +35,40 @@ header {
         color: inherit;
         display: inline-block;
         padding: 20px; }
-        .mainNavigation ul li a a:hover {
-          background: #455A64; }
+        .mainNavigation ul li a:hover {
+          background: #f75311;
+          text-decoration: underline;
+          color: #cfd1d3; }
+
+.ny {
+  width: 250px;
+  background: #f75311;
+  text-decoration: none;
+  display: inline-block;
+  text-align: left; }
+  .ny:hover {
+    text-decoration: underline; }
+
+.intro img {
+  float: left;
+  width: 100%;
+  height: 80%;
+  padding-top: 3%;
+  background-size: cover; }
+.intro .introBlock {
+  position: absolute;
+  height: 20%;
+  width: 60%;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 2%;
+  margin-top: 30%;
+  margin-left: 20%; }
+  .intro .introBlock h1 {
+    color: #f3f7f9;
+    text-shadow: 5px 2px 2px #000; }
+  .intro .introBlock h5 {
+    color: #f3f7f9;
+    text-shadow: 3px 1px 1px #000; }
 
 /*# sourceMappingURL=style.css.map */
