@@ -31,43 +31,40 @@ button:hover {
 
 header .header-location {
   background-color: #f75311;
-  padding: 1em;
-  white-space: none; }
+  padding: 1em; }
   @media screen and (min-width: 1224px) {
     header .header-location {
       display: inline-block;
       width: 20%;
-      padding: 1.5em;
-      vertical-align: middle;
-      margin-right: -4px; } }
+      padding-bottom: 1.3em;
+      padding-top: 1.7em; } }
   @media screen and (min-device-width: 768px) and (max-device-width: 1223px) {
     header .header-location {
       display: inline-block;
       width: 20%;
-      padding: 2em; } }
-  header .header-location i {
-    display: inline-block;
-    font-size: 2em; }
+      padding: 1.5em; } }
+  header .header-location img {
+    height: 2em;
+    vertical-align: middle; }
   header .header-location a {
     margin-left: 2em; }
 @media screen and (min-width: 1224px) {
   header nav {
-    width: 77.1%;
+    width: 77.6%;
     display: inline-block; } }
 @media screen and (min-device-width: 768px) and (max-device-width: 1223px) {
   header nav {
-    width: 71%;
-    display: inline-block; } }
+    display: inline-block;
+    margin: auto;
+    width: 74.9%; } }
 header nav ul {
+  width: 99.99%;
   background-color: #374249;
   list-style-type: none; }
-  @media screen and (min-device-width: 768px) and (max-device-width: 1223px) {
-    header nav ul {
-      width: 106%; } }
   header nav ul li {
     color: white;
     text-align: center;
-    padding: 1.5em 0; }
+    height: 4em; }
     @media screen and (min-width: 1224px) {
       header nav ul li {
         display: inline-block;
@@ -77,11 +74,14 @@ header nav ul {
         display: inline-block;
         margin: 0.5em 3em; } }
     header nav ul li a {
+      display: block;
+      padding-top: 1.6em;
       text-decoration: none;
       color: white; }
     header nav ul li a:hover {
       text-decoration: underline; }
-header .box-heading {
+
+.box-heading {
   background-color: black;
   background-size: cover;
   color: white;
@@ -89,36 +89,36 @@ header .box-heading {
   margin: 0;
   padding-bottom: 1em; }
   @media screen and (min-width: 1224px) {
-    header .box-heading {
+    .box-heading {
       background-image: url("../../img/intro.jpg");
       background-repeat: no-repeat; } }
   @media screen and (min-device-width: 768px) and (max-device-width: 1223px) {
-    header .box-heading {
+    .box-heading {
       background-image: url("../../img/intro.jpg");
       height: 587px; } }
   @media screen and (min-width: 1224px) {
-    header .box-heading .jumbo-text {
+    .box-heading .jumbo-text {
       padding-top: 30%; } }
   @media screen and (min-device-width: 768px) and (max-device-width: 1223px) {
-    header .box-heading .jumbo-text {
+    .box-heading .jumbo-text {
       padding-top: 30%; } }
-  header .box-heading .jumbo-text h1 {
+  .box-heading .jumbo-text h1 {
     font-size: 2.5em;
     margin: 0; }
     @media screen and (min-width: 1224px) {
-      header .box-heading .jumbo-text h1 {
+      .box-heading .jumbo-text h1 {
         padding: 0.3em; } }
-  header .box-heading .jumbo-text p {
+  .box-heading .jumbo-text p {
     width: 85%;
     margin: auto; }
   @media screen and (min-width: 1224px) {
-    header .box-heading .jumbo-text .box-opacity {
+    .box-heading .jumbo-text .box-opacity {
       width: 85%;
       margin: auto;
       background-color: rgba(55, 66, 73, 0.7);
       padding: 1em; } }
   @media screen and (min-device-width: 768px) and (max-device-width: 1223px) {
-    header .box-heading .jumbo-text .box-opacity {
+    .box-heading .jumbo-text .box-opacity {
       width: 85%;
       margin: auto;
       background-color: rgba(55, 66, 73, 0.7);
@@ -158,7 +158,9 @@ header .box-heading {
   @media screen and (min-device-width: 768px) and (max-device-width: 1223px) {
     .container .wrapper {
       width: 49.6%;
-      display: inline-block; } }
+      display: inline-block; }
+      .container .wrapper:active .tag {
+        display: block; } }
   .container .wrapper .tag {
     position: absolute;
     width: 100%;
@@ -247,8 +249,15 @@ header .box-heading {
       vertical-align: middle; } }
   .contact .wrapper img {
     display: inline-block;
-    width: 20%;
-    height: 100%; }
+    width: 80%;
+    height: 100%;
+    margin-bottom: 1em; }
+    @media screen and (min-width: 1224px) {
+      .contact .wrapper img {
+        width: 24%; } }
+    @media screen and (min-device-width: 768px) and (max-device-width: 1223px) {
+      .contact .wrapper img {
+        width: 50%; } }
   .contact .box-contact {
     padding: 1em;
     background-color: #f75311;
