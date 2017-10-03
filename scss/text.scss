@@ -54,3 +54,260 @@ li a:hover {
     text-align: left;
 }
 
+.intro{
+
+             background-color: black;
+             height: 210px;
+             text-align: center;
+             position: left;
+             width: 100%;
+             position: relative;
+
+             .h1{
+
+                position: absolute;
+                transform: translate(-50%, -50%);
+                top: 50%;
+                left: 50%;
+                height: auto;
+                width: 90%;
+                margin: auto;
+                text-align: center;
+                background-color: rgba(0, 0, 0, 0.3);
+
+
+                    h1{
+
+
+                        font-size: 2.5em;
+                        color: white;
+                        text-align: center;
+                        margin: auto;
+
+                    }
+                    p{
+                        color: white;
+                        padding-top: 0.3em;
+
+                    }
+
+             }
+
+}
+.buttonSection{
+
+    height: 4em;
+    width: 100%;
+    float: left;
+
+
+    form{
+
+    
+        text-align: center;
+
+
+
+
+        input[type="button"]{
+
+            display: inline-block;
+ //           float: right;
+            padding: 0.5em;
+            margin:1em 2em 1em;
+            width: auto;
+            height: 2.5em;
+            background-color: white;
+            border-radius: 20px;
+        }
+         input[type="button"]:hover {
+            background-color: $hoverColor;
+}
+    }
+}
+
+.imgSection{
+
+    height: auto;
+    float: left;
+    background-color: $bkg;
+
+    .imgMain{
+  
+        display: block;
+        width: 100%;
+        margin: auto;
+        padding: 1em;
+
+        .imgDiv{
+
+             width: 90%;
+             height: 244px;
+             display: inline-block;
+             margin: 1em 1em;
+             position: relative;
+
+
+
+            img{
+
+            width: 100%;
+            height: 100%;
+            }
+            .hoverText{
+
+                background: rgba(255, 255, 255, 0.4);
+                position: absolute;
+                top: 0;
+                left:    0%;
+                width: 100%;
+                height: 50%;
+
+                h3, h4{
+
+                    padding: 0.2em;
+                }
+            }
+
+
+
+        }
+      
+
+    }
+}
+.tableSection{
+
+    
+    text-align: center;
+    float: left;
+    width: 100%;
+
+    .button{
+
+        padding: 1em;
+        margin: 2em auto;
+        border-radius: 30px;
+        background-color: white;
+    }
+        table{
+
+            display: none;
+
+           
+        }
+
+        h1{
+
+            color: $hColor;
+            text-transform: uppercase;
+            margin-top: 2em;
+
+        }
+        h5{
+
+            color: $hoverColor;
+            margin-top: 2em;
+        }
+        .first{
+            border-left: none;
+            border-top: none;
+            background-color: white;
+
+        }
+
+}
+.formMap{
+
+    
+    width: 100%;
+    height: 580px;
+    float: left;
+    background-color: $bkg;
+    text-align: center;
+
+    .googleMap{
+
+        display: block;
+        width: 100%;
+        margin: auto;
+
+        iframe{
+
+        
+            width: 60%;
+            
+
+        }
+        .form{
+
+            margin-top: 2em;
+            display: block;
+            width: 90%;
+            
+
+        .contactForm {
+
+        float: right;
+        width: 90%;
+        background: $navColor; 
+        display: block;
+        margin: auto;
+        padding: 10px;
+
+        .contactInput {
+            
+    
+            
+            border: none;
+            color: $navColor;
+            height: 30px;
+            margin: 8px 0;
+            
+        }
+
+        .contactInput[name='contact_email'] {
+            width: 100%;
+            float: left;
+        }
+
+        .contactInput[name='contact_name'] {
+
+            width: 70%;
+            float: right;
+        }
+        .contactInput[name='contact_gender'] {
+
+            width: 20%;
+            float: left;
+            background-color: $bkg;
+        
+        }
+        
+        
+
+
+        textarea {
+            float: left;
+            width: 100%;
+            border: none;
+            padding: 10px auto;
+            margin: 10px 0;
+            resize: none;
+        }
+    }
+  }
+        
+ }
+
+    h1{
+
+
+            color: $hColor;
+            text-transform: uppercase;
+            margin: 2em auto;
+
+        
+    }
+
+}
