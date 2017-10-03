@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif; }
+
+html, body {
+  width: 100%;
+  height: 100%; }
+
+header {
+  position: fixed;
+  width: 100%; }
+
+.mainNavigation {
+  width: 100%; }
+  .mainNavigation ul {
+    list-style: none;
+    background: #607d8b;
+    color: #fff;
+    text-align: center; }
+    .mainNavigation ul li {
+      display: inline-block; }
+      .mainNavigation ul li a {
+        text-decoration: none;
+        color: inherit;
+        display: inline-block;
+        padding: 20px; }
+        .mainNavigation ul li a a:hover {
+          background: #455A64; }
+
+/*# sourceMappingURL=style.css.map */
