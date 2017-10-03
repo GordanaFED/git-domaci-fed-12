@@ -6,3 +6,9 @@
   transform: translate(-50%, -50%);
 }
 
+@mixin naslovi {
+		text-align: center;
+		font-size: 28px;
+		color: $headlineColor;
+		padding-top: 2em;
+}

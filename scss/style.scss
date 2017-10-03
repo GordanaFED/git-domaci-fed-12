@@ -164,3 +164,23 @@ header {
   		opacity: 1;
 }
 }
+
+.cene{
+	background: $hoverButtonColor;
+	h2{
+		@include naslovi;
+		}
+		p{
+			text-align: center;
+			color: $fontColor;
+			padding-top: 1em;
+		}
+	}
+
+.contact{
+	background: $sectionBackgroundColor;
+	h2{
+		@include naslovi;
+		padding-bottom: 2em;
+		}
+}

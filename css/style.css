@@ -123,4 +123,25 @@ header {
     visibility: visible;
     opacity: 1; }
 
+.cene {
+  background: #F8F8F8; }
+  .cene h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #374249;
+    padding-top: 2em; }
+  .cene p {
+    text-align: center;
+    color: #797979;
+    padding-top: 1em; }
+
+.contact {
+  background: #f3f7f9; }
+  .contact h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #374249;
+    padding-top: 2em;
+    padding-bottom: 2em; }
+
 /*# sourceMappingURL=style.css.map */
