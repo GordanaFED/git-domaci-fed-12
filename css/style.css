@@ -220,5 +220,46 @@ footer {
 
   footer p {
     font-size: 1em; } }
+@media only screen and (min-width: 1170px) {
+  header {
+    height: 500px; }
+    header div:first-child {
+      width: 20%; }
+    header nav {
+      width: 80%; }
+    header #secondHeaderDiv {
+      margin-top: 15%; }
+
+  main #buttons {
+    padding-top: 30px;
+    padding-bottom: 35px;
+    margin-top: 0;
+    margin-bottom: 0; }
+    main #buttons a {
+      padding: 7px 13px; }
+  main #gallery figure {
+    width: 20%;
+    margin-right: 5%; }
+  main #table table {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto; }
+  main #contactSection {
+    padding-bottom: 2%; }
+    main #contactSection:before, main #contactSection:after {
+      content: "";
+      display: table; }
+    main #contactSection:after {
+      clear: both; }
+    main #contactSection #googleMap {
+      width: 30%;
+      float: left;
+      padding: 0; }
+    main #contactSection form {
+      width: 60%;
+      float: right; }
+
+  footer {
+    margin-top: 0; } }
 
 /*# sourceMappingURL=style.css.map */
